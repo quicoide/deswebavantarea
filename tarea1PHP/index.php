@@ -44,6 +44,7 @@ if(!isset($_SESSION["items"])){
 ?>
 
     <body>
+    <h1>Tabla de inventario</h1>
     <form action="actions.php" method="post">
         <div>
             <button value="" name="addItem" id="newAddSubmit">Agregar Nuevo Item</button>
@@ -54,7 +55,7 @@ if(!isset($_SESSION["items"])){
                 <th>Item</th>
                 <th>Cantidad</th>
                 <th>Precio</th>
-                <th>Accion</th>
+                <th>Acción</th>
             </tr>
             <?php
             /*
@@ -69,8 +70,8 @@ if(!isset($_SESSION["items"])){
                 echo "<td>".$item["qty"]."</td>";
                 echo "<td>".$item["price"]."</td>";
                 echo "<td>";
-                echo"<button value='".$id."' name='deleteItem' id='deleteSubmit'>Eliminar</input>";
                 echo"<button value='".$id."' name='modifyItem' id='modifySubmit'>Modificar</input>";
+                echo"<button value='".$id."' name='deleteItem' id='deleteSubmit'>Eliminar</input>";
                 echo"</td>";
                 echo "</tr>";
             }
