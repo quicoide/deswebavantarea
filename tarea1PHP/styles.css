@@ -18,7 +18,7 @@ Trabajo: Desarrollo Web Avanzado
 Se realiza la modificación en todos los elementos td y th que sean hijos de los elementos HTML con id Inventory.
  */
 #inventory td, #inventory th {
-    border: 1px solid #ddd;
+    border: 1px solid #555555;
     padding: 5px;
 }
 /*
@@ -51,11 +51,15 @@ button {
     padding: 5px;
     margin:5px 5px 5px 5px;
 }
-
+/*
+Se realiza la modificación del estilo de los elementos h4.
+ */
 h4 {
     color: red;
 }
-
+/*
+Se realiza la modificación del estilo de los elementos h4.
+ */
 h1 {
     font-family: Georgia;
 }
