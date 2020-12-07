@@ -1,0 +1,53 @@
+/*
+Alumno: Enrique Manuel Gorian Lemus
+Profesor: Octavio Aguirre Lozano
+Materia: Computacion en el servidor Web
+Trabajo: Desarrollo Web Avanzado
+*/
+
+/*
+ Se realiza la modificación en el estilo de los elementos HTML con id Inventario.
+ */
+#inventory {
+    font-family: Georgia;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+/*
+Se realiza la modificación en todos los elementos td y th que sean hijos de los elementos HTML con id Inventory.
+ */
+#inventory td, #inventory th {
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+/*
+Se realiza la modificación en todos los elementos tr pares que sean hijos de los elementos HTML con id Inventory
+ */
+#inventory tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+/*
+Se realiza la modificación en el selector hover de los elementos tr que sean hijos de los elementos HTML con id Inventory
+ */
+#inventory tr:hover {
+    background-color: #00004d;
+    color:white;
+}
+/*
+Se realiza la modificación de los elementos th que sean hijos de los elementos HTML con id Inventory
+ */
+#inventory th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #000099;
+    color: white;
+}
+/*
+Se realiza la modificación del estilo de los elementos tipo Button.
+ */
+button {
+    padding: 5px;
+    margin:5px 5px 5px 5px;
+}
